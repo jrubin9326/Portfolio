@@ -1,4 +1,6 @@
-
+* {
+  box-sizing: border-box;
+}
   html,body {
     font-family: 'Raleway', sans-serif;
     padding: 1em 2em;
@@ -72,6 +74,7 @@
   textarea {
     display: block;
     width: 100%;
+    color:#fff; 
   }
   
   input[type=text],
@@ -94,5 +97,61 @@
     cursor: pointer;
     background: #4aaaa5;
     border: 0 none;
+  }
+  /*  portfolio edits */
+
+  #main-container {
+    padding-top: 60px;
+    min-height: calc(100vh - 70px);
+    color:rgb(10, 9, 9); 
+  }
+  
+  .main-section {
+    float: left;
+    width: 100%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 40px;
+    border: 1px solid #dddddd;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+  }
+  
+    
+  .work {
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 20px 0 25px;
+    overflow: auto;
+  }
+  
+  .work:nth-child(even) {
+    margin-right: 40px;
+  }
+  
+  .work img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+  }
+  
+  .work h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 15px;
+    color: rgb(10, 9, 9));
+    text-align: center;
+    background: #a1fcf7;
+    border-bottom: 0;
   }
   
