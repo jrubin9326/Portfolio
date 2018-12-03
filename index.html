@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href= "assets/reset.css">
     <link rel="stylesheet" type="text/css" href = "assets/style.css">
     <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css">
@@ -12,8 +14,29 @@
 <body>
 <h2>Hi my name is</h2>
 <h1>Jennifer Rubin </h2>
-<p>and i am a software engineer</p> 
+<p id = "special">and i am a software engineer</p> 
 
+<div class = "container">
+    <div class = "row">
+        <div class = "col-md-4">
+            <p id = "profile-text">About Me</p>
+            <img id = "profile-picture" src="assets/images/profile.jpg">
+        </div>
+
+    
+        <div class = "col-md-4">
+            <p id = "portfolio">Portfolio</p>
+            <img id = "portfolio-image" src = "assets/images/portfolio-1.png">
+        </div>
+  
+   
+        <div class = "col-md-4">
+            <p id ="contact-me">Contact Me!</p>
+            <img id = "contact-image" src ="assets/images/images.png">
+        </div>
+        
+    </div>
+</div>
 <script src = "assets/javascript/website.js"></script>
 </body>
 </html>
